@@ -8,6 +8,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/Documents/GitHub/lostshadow/Lost Shadow/Assets/Scripts/Controller/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/InterfaceUpdate.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -57,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662719597825</updated>
-      <workItem from="1662719603882" duration="4274000" />
+      <workItem from="1662719603882" duration="6401000" />
     </task>
     <servers />
   </component>

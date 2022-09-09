@@ -14,8 +14,5 @@ public class InterfaceUpdate : MonoBehaviour
    
     
 
-    Void EndTurn()
-    {
-        
-    }
+    
 }
