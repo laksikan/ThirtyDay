@@ -28,10 +28,7 @@ public class TurnbaseSystem : MonoBehaviour
     
     void Update()
     {
-        if (EndTurnButton.onClick != null)
-        {
-            EndTurn();
-        }
+        
     }
 
     void SetupTurn()
@@ -40,15 +37,18 @@ public class TurnbaseSystem : MonoBehaviour
         state = TurnState.ActionTurn;
     }
 
-    void ActionTurn()
+    public void ActionTurn()
     {
         
     }
 
-    void EndTurn()
+    public void EndTurn()
     {
-        
+    
+        DayPeriodText.text = "Stupid";
     }
+    
+    
 
     void EndGame()
     {

@@ -672,12 +672,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1481815725}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e389d5fec50173489222365e532dd3f, type: 3}
+  m_Script: {fileID: 11500000, guid: f2c5a23f695b46b4d8f2a2e294f90b01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DayText: {fileID: 0}
-  DayPeriodText: {fileID: 0}
-  TurnStateText: {fileID: 0}
+  state: 0
+  _Day: 1
+  _DayPeriod: 1
+  DayText: {fileID: 2115743715}
+  DayPeriodText: {fileID: 1728740048}
+  TurnStateText: {fileID: 824165799}
+  EndTurnButton: {fileID: 357594274}
 --- !u!1 &1728740046
 GameObject:
   m_ObjectHideFlags: 0
