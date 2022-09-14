@@ -10,20 +10,19 @@ public class TurnbaseSystem : MonoBehaviour
     
     //Variable
     public TurnState state;
-    public int _Day = 1;
-    public int _DayPeriod = 1;
+    public int Day = 1;
+    public int DayPeriod = 1;
     
     //TextInterfaceShowoff
     public Text DayText;
     public Text DayPeriodText;
     public Text TurnStateText;
-    public Button EndTurnButton;
-    
+
     #endregion
     void Start()
     {
         state = TurnState.Start;
-        SetupTurn();
+        _SetupTurn();
     }
     
     void Update()
@@ -31,27 +30,66 @@ public class TurnbaseSystem : MonoBehaviour
         
     }
 
-    void SetupTurn()
+    void _SetupTurn()
     {
         //endsetup
         state = TurnState.ActionTurn;
     }
 
-    public void ActionTurn()
+    public void _ActionTurn()
     {
         
     }
 
-    public void EndTurn()
+    public void _EndTurn()
     {
-    
-        DayPeriodText.text = "Stupid";
+        _ProcessDay(1);
+        DayPeriodText.text = _NameDayPeriod(DayPeriod);
+        DayText.text = Day.ToString();
     }
-    
-    
 
-    void EndGame()
+    void _EndGame()
     {
         
+    }
+    
+    private void _ProcessDay(int addTurn)
+    {
+        DayPeriod = DayPeriod + addTurn;
+        
+        //ขึ้นวันใหม่จบเทิร์นที่ 5
+        if (DayPeriod == 6)
+        {
+            DayPeriod = 1;
+            Day++;
+            
+        }
+        
+    }
+
+    private string _NameDayPeriod(int periodTurn)
+    {
+        string name = "NaN";
+        if (periodTurn == 1)
+        {
+            name = "Dawn";
+        }
+        else if (periodTurn == 2)
+        {
+            name = "Morning";
+        }
+        else if (periodTurn == 3)
+        {
+            name = "Noon";
+        }
+        else if (periodTurn == 4)
+        {
+            name = "Evening";
+        }
+        else if (periodTurn == 5)
+        {
+            name = "Night";
+        }
+        return name;
     }
 }
