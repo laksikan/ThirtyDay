@@ -55,6 +55,7 @@ public class TurnbaseSystem : MonoBehaviour
     
     private void _ProcessDay(int addTurn)
     {
+        state = TurnState.EndTurn;
         DayPeriod = DayPeriod + addTurn;
         
         //ขึ้นวันใหม่จบเทิร์นที่ 5
