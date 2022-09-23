@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="28a5b13b-1cbc-415d-97a1-995c5c8ce31b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GitHub/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GitHub/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/TurnbaseSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/TurnbaseSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Apparel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Apparel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Resource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Resource.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/cake.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/cake.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,15 +38,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="Discover.Launch.Via.Unity" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="rider.run.widget.enabled.cache" value="false" />
-    <property name="settings.editor.selected.configurable" value="SolutionBuilderGeneralOptionsPageId" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.1.15f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;G:\Work Project\BloomingStar\GitHub&quot; -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="G:\Work Project\BloomingStar\GitHub" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -81,7 +84,11 @@
       <workItem from="1663161103649" duration="7003000" />
       <workItem from="1663654355474" duration="849000" />
       <workItem from="1663655231567" duration="238000" />
-      <workItem from="1663655489802" duration="6928000" />
+      <workItem from="1663655489802" duration="7097000" />
+      <workItem from="1663664364757" duration="2327000" />
+      <workItem from="1663766387297" duration="287000" />
+      <workItem from="1663767249817" duration="123000" />
+      <workItem from="1663780488506" duration="3213000" />
     </task>
     <servers />
   </component>

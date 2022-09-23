@@ -15,6 +15,8 @@ public abstract class Resource : ScriptableObject
     
     public Sprite artwork;
     
+     
+    
     
 }
 public enum MyEnumeratedType 
