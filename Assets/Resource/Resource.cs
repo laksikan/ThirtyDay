@@ -19,7 +19,7 @@ public abstract class Resource : ScriptableObject
     
     
 }
-public enum MyEnumeratedType 
+public enum Item_Type 
 {
-    Material, Food, Weapon, Apparel, Item
+    Material, Food, Weapon, Apparel, Consumed
 }
