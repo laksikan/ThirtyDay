@@ -7,4 +7,12 @@ public class Consumed : Resource
     public float Nutrition;
     
     private bool consumed = false;
+    
+    public override string ItemType
+    {
+        get
+        {
+            return "Consumed";
+        }
+    }
 }

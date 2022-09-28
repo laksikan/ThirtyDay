@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 50474342661abd94a8f0e50ebb1bfd54, type: 3}
-  m_Name: New Weapon
+  m_Name: AssaultRiffle
   m_EditorClassIdentifier: 
   name: 
   description: 
   Mass: 0
   Value: 0
   artwork: {fileID: 0}
+  renameOnValidate: 0
   Damage: 0
   Durability: 0
   equippable: 0

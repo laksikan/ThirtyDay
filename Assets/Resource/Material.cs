@@ -7,5 +7,11 @@ using UnityEngine;
 public class Material : Resource
 {
     
-    
+    public override string ItemType
+    {
+        get
+        {
+            return "Material";
+        }
+    }
 }

@@ -5,7 +5,16 @@
       <change afterPath="$PROJECT_DIR$/Assets/script.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GitHub/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GitHub/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Apparel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Apparel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Consumed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Consumed.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Material.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Material.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/New Weapon.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/New Weapon.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resource/Resource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Resource.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Storage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Storage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Weapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/cake.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/cake.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/Storage.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/Storage.cs.meta" beforeDir="false" />
@@ -89,7 +98,7 @@
       <workItem from="1663766387297" duration="287000" />
       <workItem from="1663767249817" duration="123000" />
       <workItem from="1663780488506" duration="3736000" />
-      <workItem from="1664209553675" duration="4168000" />
+      <workItem from="1664209553675" duration="8575000" />
     </task>
     <servers />
   </component>

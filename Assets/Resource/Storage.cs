@@ -5,9 +5,9 @@ using UnityEngine;
 public abstract class Storage
 {
     
-
     public Storage()
     {
+        
         //_resources = ;
         //Add_Item;
     }

@@ -11,5 +11,12 @@ public class Weapon : Resource
     
     public bool equippable;
 
+    public override string ItemType
+    {
+        get
+        {
+            return "Weapon";
+        }
+    }
 }
 

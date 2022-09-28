@@ -9,5 +9,13 @@ public class Apparel : Resource
     public float Durability;
     
     public bool equippable;
+    
+    public override string ItemType
+    {
+        get
+        {
+            return "Apparel";
+        }
+    }
 
 }
