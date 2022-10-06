@@ -17,6 +17,7 @@ public class TurnbaseSystem : MonoBehaviour
     public Text DayText;
     public Text DayPeriodText;
     public Text TurnStateText;
+    public GameObject clockhand;
 
     #endregion
     void Start()
@@ -32,7 +33,11 @@ public class TurnbaseSystem : MonoBehaviour
 
     void _SetupTurn()
     {
+        //ปรับนาฬิกา เป็นตอนเช้า
+        clockhand.transform.rotation = Quaternion.Euler(0,0,110);
+        
         //endsetup
+        
         state = TurnState.ActionTurn;
     }
 
@@ -58,6 +63,7 @@ public class TurnbaseSystem : MonoBehaviour
         state = TurnState.EndTurn;
         DayPeriod = DayPeriod + addTurn;
         
+        
         //ขึ้นวันใหม่จบเทิร์นที่ 5
         if (DayPeriod == 6)
         {
@@ -70,25 +76,36 @@ public class TurnbaseSystem : MonoBehaviour
 
     private string _NameDayPeriod(int periodTurn)
     {
+        
+        
         string name = "NaN";
         if (periodTurn == 1)
         {
-            name = "Dawn";
+            //110
+            clockhand.transform.rotation = Quaternion.Euler(0,0,110);
+            name = "Morning";
         }
         else if (periodTurn == 2)
         {
-            name = "Morning";
+            //160
+            clockhand.transform.rotation = Quaternion.Euler(0,0,160);
+            name = "Noon";
         }
         else if (periodTurn == 3)
         {
-            name = "Noon";
+            //200
+            clockhand.transform.rotation = Quaternion.Euler(0,0,200);
+            name = "Afternoon";
         }
         else if (periodTurn == 4)
         {
+            //250
+            clockhand.transform.rotation = Quaternion.Euler(0,0,250);
             name = "Evening";
         }
         else if (periodTurn == 5)
         {
+            clockhand.transform.rotation = Quaternion.Euler(0,0,0);
             name = "Night";
         }
         return name;

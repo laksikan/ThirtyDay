@@ -3,36 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="28a5b13b-1cbc-415d-97a1-995c5c8ce31b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GitHub/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GitHub/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Bear.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Bear.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Untitled-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Untitled-1.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Untitled-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Untitled-10.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Untitled-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Untitled-11.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Untitled-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Untitled-2.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Untitled-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Untitled-3.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Untitled-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Untitled-4.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Untitled-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Untitled-5.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Untitled-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Untitled-6.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Untitled-7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Untitled-7.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Untitled-8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Untitled-8.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Untitled-9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Untitled-9.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/script/Card.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/script/Card.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/script/Display.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/script/Display.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/script/EventControl.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/script/EventControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/TurnbaseSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/TurnbaseSystem.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +22,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Resource/Apparel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/InterfaceUpdate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://G:/Work Project/BloomingStar/GitHub/Assets/script.meta" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
