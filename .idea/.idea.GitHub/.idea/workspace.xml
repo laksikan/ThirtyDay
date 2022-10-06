@@ -3,14 +3,36 @@
   <component name="ChangeListManager">
     <list default="true" id="28a5b13b-1cbc-415d-97a1-995c5c8ce31b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GitHub/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GitHub/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Apparel/Bulletproof Armor.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Apparel/Bulletproof Armor.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Apparel/Fire Suit.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Apparel/Fire Suit.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Apparel/Gas Mask.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Apparel/Gas Mask.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Consumed/Fine meal.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Consumed/Fine meal.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Consumed/Medicine.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Consumed/Medicine.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Consumed/Salad.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Consumed/Salad.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Consumed/Simple meal.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Consumed/Simple meal.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Consumed/Vaccine.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Consumed/Vaccine.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Bear.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Bear.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Untitled-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Untitled-1.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Untitled-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Untitled-10.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Untitled-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Untitled-11.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Untitled-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Untitled-2.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Untitled-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Untitled-3.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Untitled-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Untitled-4.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Untitled-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Untitled-5.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Untitled-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Untitled-6.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Untitled-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Untitled-7.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Untitled-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Untitled-8.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Untitled-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Untitled-9.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/script/Card.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/script/Card.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/script/Display.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/script/Display.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/script/EventControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/script/EventControl.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +49,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://G:/Work Project/BloomingStar/GitHub/Assets/script.meta" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -93,6 +118,7 @@
       <workItem from="1663780488506" duration="3736000" />
       <workItem from="1664209553675" duration="10156000" />
       <workItem from="1664711933166" duration="2401000" />
+      <workItem from="1665050423237" duration="1021000" />
     </task>
     <servers />
   </component>
