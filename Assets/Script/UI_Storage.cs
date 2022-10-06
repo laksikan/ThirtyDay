@@ -6,15 +6,11 @@ public class UI_Storage : MonoBehaviour
 {
     public Sprite artwork;
     [SerializeField] GameObject storage;
-    string[] NameMaterial = {"Token","Wood","Scrap metal","Concrete","Tool","Cloth"};
-    string[] NameConsumed = {"Meat","Bread","Vegetable","Simple meal","Fine meal","Salad","Medicine","Vaccine","Map"};
-    string[] NameWeapon = {"Baseball bat","Bloc.17","Assault rifle","Shotgun"};
-    string[] NameApparel = {"Gas Mask","Fire Suit","Bulletproof Armor"};
-    public Button CloseButton,UseButton,AllButton,MaterialButton,ConsumedButton,WeaponButton,ApparelButton;
+    
+    public Button UseButton,AllButton,MaterialButton,ConsumedButton,WeaponButton,ApparelButton;
     
     void Start(){
-        Button btn = CloseButton.GetComponent<Button>();
-		btn.onClick.AddListener(TaskOnClick_Close);
+        
         Button btn2 = UseButton.GetComponent<Button>();
 		btn2.onClick.AddListener(TaskOnClick_Use);
         Button btn3 =AllButton.GetComponent<Button>();
@@ -28,9 +24,7 @@ public class UI_Storage : MonoBehaviour
         Button btn7 =AllButton.GetComponent<Button>();
 		btn7.onClick.AddListener(TaskOnClick_Apparel);
     }
-    void TaskOnClick_Close(){
-        storage.SetActive(false);
-    }
+   
     void TaskOnClick_Use(){
 
     }
