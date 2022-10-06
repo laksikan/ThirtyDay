@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99bd51c99eb1bd34cad3468cfadb7bde, type: 3}
   m_Name: Medicine
   m_EditorClassIdentifier: 
-  name: 
+  name: Medicine
   description: 
-  Mass: 0
-  Value: 0
+  Mass: 5
+  Value: 25
   artwork: {fileID: 0}
   renameOnValidate: 0
   Nutrition: 0

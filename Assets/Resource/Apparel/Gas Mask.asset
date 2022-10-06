@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 970687610dc128346801c72a2de65b5f, type: 3}
   m_Name: Gas Mask
   m_EditorClassIdentifier: 
-  name: 
+  name: Gas Mask
   description: 
-  Mass: 0
-  Value: 0
+  Mass: 1
+  Value: 20
   artwork: {fileID: 0}
   renameOnValidate: 0
-  Armor: 0
-  Durability: 0
+  Armor: 10
+  Durability: 10
   equippable: 0

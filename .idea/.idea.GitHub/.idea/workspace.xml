@@ -2,22 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28a5b13b-1cbc-415d-97a1-995c5c8ce31b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/script.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GitHub/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GitHub/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Apparel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Apparel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Consumed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Consumed.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Material.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Material.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/New Weapon.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/New Weapon.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Resource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Resource.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Storage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Storage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Weapon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/cake.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/cake.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Storage.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Storage.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Apparel/Bulletproof Armor.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Apparel/Bulletproof Armor.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Apparel/Fire Suit.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Apparel/Fire Suit.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Apparel/Gas Mask.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Apparel/Gas Mask.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Consumed/Fine meal.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Consumed/Fine meal.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Consumed/Medicine.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Consumed/Medicine.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Consumed/Salad.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Consumed/Salad.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Consumed/Simple meal.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Consumed/Simple meal.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Consumed/Vaccine.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Consumed/Vaccine.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +91,8 @@
       <workItem from="1663766387297" duration="287000" />
       <workItem from="1663767249817" duration="123000" />
       <workItem from="1663780488506" duration="3736000" />
-      <workItem from="1664209553675" duration="8575000" />
+      <workItem from="1664209553675" duration="10156000" />
+      <workItem from="1664711933166" duration="2401000" />
     </task>
     <servers />
   </component>
