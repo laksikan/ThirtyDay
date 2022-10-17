@@ -9,12 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99bd51c99eb1bd34cad3468cfadb7bde, type: 3}
-  m_Name: cake
+  m_Script: {fileID: 11500000, guid: 50474342661abd94a8f0e50ebb1bfd54, type: 3}
+  m_Name: Handgun
   m_EditorClassIdentifier: 
-  name: 
+  name: Handgun
   description: 
-  Mass: 0
-  Value: 0
+  Mass: 15
+  Value: 20
   artwork: {fileID: 0}
-  Nutrition: 0
+  Damage: 25
+  Durability: 30
+  equippable: 0

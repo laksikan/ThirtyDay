@@ -6,6 +6,5 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Material", menuName = "Material")]
 public class Material : Resource
 {
-    
-    
+
 }
