@@ -16,5 +16,6 @@ MonoBehaviour:
   description: 
   Mass: 4
   Value: 10
-  artwork: {fileID: 0}
+  Quantity: 0
+  artwork: {fileID: 21300000, guid: e2c57877f6cabfc48a4acdb48b30b016, type: 3}
   Nutrition: 6

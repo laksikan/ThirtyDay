@@ -16,7 +16,8 @@ MonoBehaviour:
   description: 
   Mass: 15
   Value: 20
-  artwork: {fileID: 0}
+  Quantity: 0
+  artwork: {fileID: 21300000, guid: f3143f9c4db2dda4e95b26b81a6be48d, type: 3}
   Damage: 25
   Durability: 30
   equippable: 0
