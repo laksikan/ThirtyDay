@@ -31,8 +31,7 @@ public class InventoryManeger : MonoBehaviour
             var materialValue = obj.transform.Find("Value").GetComponent<Text>();
             var materialQuantity = obj.transform.Find("Quantity").GetComponent<Text>();
             materialName.text = material.name;
-            materialIcon.sprite = material.artwork;
-            material.Quantity+=1; 
+            materialIcon.sprite = material.artwork;             
             materialQuantity.text = material.Quantity.ToString();
             materialMass.text = material.Mass.ToString();
             materialValue.text = material.Value.ToString();

@@ -7,13 +7,15 @@ public class MaterialPickUp : MonoBehaviour
 {   
    
     public Material Material;
-
+    
     
     
     public void PickUp(){
+        //InventoryManeger.Instance.Remove(Material);
         InventoryManeger.Instance.Add(Material);        
     }
     private void OnMouseDown(){
+        
         PickUp();
         
         
