@@ -13,6 +13,7 @@ public abstract class Resource : ScriptableObject
     public string description;
     public float Mass;
     public float Value;
+    public int itemId;
 
     public Sprite artwork;
 
