@@ -9,11 +9,12 @@ using UnityEngine.UI;
 
 public abstract class Resource : ScriptableObject
 {
-    public string name;
+    public string itemId;
+    public string displayName;
     public string description;
     public float Mass;
     public float Value;
-    public int itemId;
+    
 
     public Sprite artwork;
 
@@ -28,7 +29,7 @@ public abstract class Resource : ScriptableObject
     {
         if (renameOnValidate)
         {
-            string thisFileNewName = name;
+            string thisFileNewName = displayName;
             string assetPath = AssetDatabase.GetAssetPath(this.GetInstanceID());
             AssetDatabase.RenameAsset(assetPath, thisFileNewName);
             renameOnValidate = false;
