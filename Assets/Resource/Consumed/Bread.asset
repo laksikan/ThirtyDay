@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 
   description: 
-  Mass: 0
-  Value: 0
+  Mass: 2.5
+  Value: 4
+  itemId: 4002
   artwork: {fileID: 0}
   renameOnValidate: 0
-  Nutrition: 0
+  Nutrition: 2

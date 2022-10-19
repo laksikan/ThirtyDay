@@ -16,6 +16,7 @@ MonoBehaviour:
   description: 
   Mass: 0
   Value: 0
+  itemId: 2004
   artwork: {fileID: 0}
   renameOnValidate: 0
   Damage: 0

@@ -16,5 +16,6 @@ MonoBehaviour:
   description: 
   Mass: 1
   Value: 1
+  itemId: 1006
   artwork: {fileID: 0}
-  renameOnValidate: 1
+  renameOnValidate: 0

@@ -16,6 +16,7 @@ MonoBehaviour:
   description: 
   Mass: 1
   Value: 20
+  itemId: 3003
   artwork: {fileID: 0}
   renameOnValidate: 0
   Armor: 10

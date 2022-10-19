@@ -16,6 +16,7 @@ MonoBehaviour:
   description: 
   Mass: 2
   Value: 6
+  itemId: 4006
   artwork: {fileID: 0}
   renameOnValidate: 0
   Nutrition: 2
