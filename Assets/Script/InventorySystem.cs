@@ -1,54 +1,52 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InventorySystem : MonoBehaviour
 {
-    private Dictionary<Resource,InventoryItem> m_itemDictionary;
-    public List<InventoryItem> inventory { get; private set; }
+    public static InventorySystem Instance;
+    public List<Resource> Resource = new List<Resource>();
+    public Transform ResourceContent;
+    public GameObject Item;
 
     private void Awake()
     {
-        inventory = new List<InventoryItem>();
-        m_itemDictionary = new Dictionary<Resource, InventoryItem>();
+        Instance = this;
     }
-
-    public InventoryItem Get(Resource referenceData)
+    public void Add(Resource item)
     {
-        if (m_itemDictionary.TryGetValue(referenceData, out InventoryItem value))
-        {
-            return value;
-        }
-
-        return null;
+        Resource.Add(item);
     }
-
-    public void Add(Resource referenceData)
+    public void Remove(Resource item)
     {
-        if (m_itemDictionary.TryGetValue(referenceData, out InventoryItem value))
-        {
-            value.AddtoStack();
-        }
-        else
-        {
-            InventoryItem newItem = new InventoryItem(referenceData);
-            inventory.Add(newItem);
-            m_itemDictionary.Add(referenceData, newItem);
-        }
+        Resource.Remove(item);
     }
-
-    public void Remove(Resource referenceData)
-    {
-        if (m_itemDictionary.TryGetValue(referenceData, out InventoryItem value))
-        {
-            value.RemoveFromStack();
-
-            if (value.stackSize == 0)
-            {
-                inventory.Remove(value);
-                m_itemDictionary.Remove(referenceData);
-            }
+    public void ListItem(){
+        
+        //Clean content before
+        foreach(Transform Resource in ResourceContent){
+            Destroy(Resource.gameObject);
         }
+
+        foreach(var item in Resource){
+            GameObject obj = Instantiate(Item,ResourceContent);
+            var itemName = obj.transform.Find("Name").GetComponent<Text>();
+            var itemIcon = obj.transform.Find("Artwork").GetComponent<Image>();
+            var itemMass = obj.transform.Find("Mass").GetComponent<Text>();
+            var itemValue = obj.transform.Find("Value").GetComponent<Text>();
+            //var itemQuantity = obj.transform.Find("Quantity").GetComponent<Text>();
+            itemName.text = item.displayName;
+            itemIcon.sprite = item.artwork;             
+            //itemQuantity.text = item.Quantity.ToString();
+            itemMass.text = item.Mass.ToString();
+            itemValue.text = item.Value.ToString();
+            
+        }
+        
         
     }
 }
+    
+    
+

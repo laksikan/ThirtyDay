@@ -18,23 +18,12 @@ public abstract class Resource : ScriptableObject
 
     public Sprite artwork;
 
-    public bool renameOnValidate = false;
-    
     public abstract string ItemType
     {
         get;
     }
     
-    private void OnValidate()
-    {
-        if (renameOnValidate)
-        {
-            string thisFileNewName = displayName;
-            string assetPath = AssetDatabase.GetAssetPath(this.GetInstanceID());
-            AssetDatabase.RenameAsset(assetPath, thisFileNewName);
-            renameOnValidate = false;
-        }           
-    }            
+    
     
     
 }
