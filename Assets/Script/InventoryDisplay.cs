@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class InventoryDisplay : MonoBehaviour
 {
-    public static InventorySystem Instance;
     public  GameObject InventoryBox;
     public  GameObject DetailBox;
 
