@@ -16,6 +16,11 @@ public class StatusDisplay : MonoBehaviour
         }
     }
     
+    public void CloseStatusDisplay()
+    {
+        StatusBox.SetActive(false);
+    }
+    
     public void ShowUnequipButton()
     {
         if (UnequipButton != null)
