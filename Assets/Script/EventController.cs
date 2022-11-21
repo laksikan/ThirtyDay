@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EventDisplay : MonoBehaviour
+public class EventController : MonoBehaviour
 {
     public GameObject ExplosionEvent;
     public GameObject ChoiceE1;
@@ -12,6 +12,8 @@ public class EventDisplay : MonoBehaviour
     public GameObject ChoiceR1;
     public GameObject ChoiceR2;
     public GameObject ChoiceR3;
+
+    public int digit;
     
     public int ChoiceExplosion;
     public int ChoiceRefrigerator;
@@ -21,12 +23,46 @@ public class EventDisplay : MonoBehaviour
     {
         Debug.Log("Battle with Bandit");
         ChoiceExplosion = 1;
+        
+        if (ChoiceExplosion == 1)
+        {
+            digit = Random.Range(0, 100);
+            
+            if (digit <= 10 ) 
+            {
+                Debug.Log(digit);
+                Debug.Log("You Got Lucky Loot Box");
+                Debug.Log("Assault Rifle +1\n" +
+                          "Token +2\n" +
+                          "Meat +5\n");
+            } else {
+                Debug.Log(digit);
+                Debug.Log("You Got Normal Loot Box");
+                Debug.Log("Token +1\n" +
+                          "Bread +2\n");
+            }
+        }
     }
     
     public void ExplosionOption2()
     {
         Debug.Log("Lost 1 Turn");
         ChoiceExplosion = 2;
+        
+        if (ChoiceExplosion == 2)
+        {
+            digit = Random.Range(0, 100);
+            if (digit <= 8 )
+            {
+                Debug.Log(digit);
+                Debug.Log("You Got Normal Loot Box");
+                Debug.Log("Token +1\n" +
+                          "Bread +2\n");
+            } else {
+                Debug.Log(digit);
+                Debug.Log("You Got Empty Loot Box");
+            }
+        }
     }
     
     public void ExplosionOption3()
