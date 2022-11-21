@@ -12,18 +12,25 @@ public class TurnbaseSystem : MonoBehaviour
     public TurnState state;
     public int Day = 1;
     public int DayPeriod = 1;
+    public int distance = 0;
     
     //TextInterfaceShowoff
     public Text DayText;
     public Text DayPeriodText;
     public Text TurnStateText;
+    
     public GameObject clockhand;
+
+    public Text DistanceText;
+    public Slider DistanceSlider;
+    
 
     #endregion
     void Start()
     {
         state = TurnState.Start;
         _SetupTurn();
+        
     }
     
     void Update()
@@ -34,7 +41,7 @@ public class TurnbaseSystem : MonoBehaviour
     void _SetupTurn()
     {
         //ปรับนาฬิกา เป็นตอนเช้า
-        clockhand.transform.rotation = Quaternion.Euler(0,0,110);
+        
         
         //endsetup
         
@@ -49,8 +56,12 @@ public class TurnbaseSystem : MonoBehaviour
     public void _EndTurn()
     {
         _ProcessDay(1);
+        //dayVisual
         DayPeriodText.text = _NameDayPeriod(DayPeriod);
         DayText.text = Day.ToString();
+        //DistanceVisual
+        DistanceSlider.value = distance;
+        DistanceText.text = distance.ToString();
     }
 
     void _EndGame()
@@ -62,8 +73,9 @@ public class TurnbaseSystem : MonoBehaviour
     {
         state = TurnState.EndTurn;
         DayPeriod = DayPeriod + addTurn;
-        
-        
+        distance = distance + addTurn;
+
+
         //ขึ้นวันใหม่จบเทิร์นที่ 5
         if (DayPeriod == 6)
         {
@@ -71,7 +83,7 @@ public class TurnbaseSystem : MonoBehaviour
             Day++;
             
         }
-        
+
     }
 
     private string _NameDayPeriod(int periodTurn)
