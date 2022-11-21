@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class EventController : MonoBehaviour
 {
@@ -12,20 +13,21 @@ public class EventController : MonoBehaviour
     public GameObject ChoiceR1;
     public GameObject ChoiceR2;
     public GameObject ChoiceR3;
-
+    
     public int digit;
     
     public int ChoiceExplosion;
     public int ChoiceRefrigerator;
+    
 
     //-------------------Result of main event--------------------------//
     public void ExplosionOption1()
     {
-        Debug.Log("Battle with Bandit");
         ChoiceExplosion = 1;
         
         if (ChoiceExplosion == 1)
         {
+            Debug.Log("Battle with Bandit");
             digit = Random.Range(0, 100);
             
             if (digit <= 10 ) 
@@ -79,6 +81,33 @@ public class EventController : MonoBehaviour
                   "30% -> Battle with Junkie\n" +
                   "10% -> Found the village\n");
         ChoiceRefrigerator = 1;
+        
+        if (ChoiceRefrigerator == 1)
+        {
+            ExplosionEvent.SetActive(false);
+            digit = Random.Range(0, 100);
+            
+            if (digit <= 9 ) 
+            {
+                Debug.Log(digit);
+                Debug.Log("You Found the Village");
+                
+            } else if (digit < 30 && digit >= 10) {
+                
+                Debug.Log(digit);
+                Debug.Log("Fight with Junkie");
+                
+            }else if (digit < 60 && digit >= 30) {
+                
+                Debug.Log(digit);
+                Debug.Log("A Giant cockroach going to attack you!");
+            }
+            else
+            {
+                Debug.Log(digit);
+                Debug.Log("It is a Empty Refrigerator");
+            }
+        }
     }
     
     public void RefrigeratorOption2()
@@ -121,5 +150,7 @@ public class EventController : MonoBehaviour
                 RefrigeratorEvent.SetActive(false);
             }
         }
+        
+        
     }
 }
