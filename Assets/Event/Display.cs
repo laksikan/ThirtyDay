@@ -14,7 +14,7 @@ public class Display : MonoBehaviour
     {   
         
         descriptionText.text = card.description;
-        eventImage.sprite = card.eventI;
+        eventImage.sprite = card.eventImage;
         c1.text = card.choice1;
         c2.text = card.choice2;
         c3.text = card.choice3;
