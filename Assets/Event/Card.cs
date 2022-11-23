@@ -6,8 +6,7 @@ using UnityEngine.UI;
 public class Card : ScriptableObject
 {
     public new string name;
-    public Sprite eventImage,background;
-    public string description,choice1,choice2,choice3;
-    public int numChoice;
+    public Sprite eventI,background;
+    public string description,choice1,choice2;
 
 }
