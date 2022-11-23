@@ -31,16 +31,16 @@ public class InventorySystem : MonoBehaviour
 
         foreach(var item in Resource){
             GameObject obj = Instantiate(Item,ResourceContent);
-            var itemName = obj.transform.Find("Name").GetComponent<Text>();
+            //var itemName = obj.transform.Find("Name").GetComponent<Text>();
             var itemIcon = obj.transform.Find("Artwork").GetComponent<Image>();
-            var itemMass = obj.transform.Find("Mass").GetComponent<Text>();
-            var itemValue = obj.transform.Find("Value").GetComponent<Text>();
+            //var itemMass = obj.transform.Find("Mass").GetComponent<Text>();
+            //var itemValue = obj.transform.Find("Value").GetComponent<Text>();
             //var itemQuantity = obj.transform.Find("Quantity").GetComponent<Text>();
-            itemName.text = item.displayName;
+            //itemName.text = item.displayName;
             itemIcon.sprite = item.artwork;             
             //itemQuantity.text = item.Quantity.ToString();
-            itemMass.text = item.Mass.ToString();
-            itemValue.text = item.Value.ToString();
+            //itemMass.text = item.Mass.ToString();
+            //itemValue.text = item.Value.ToString();
             
         }
         

@@ -6,7 +6,7 @@ public class ItemObject : MonoBehaviour
 {
     public Resource referenceItem;
     
-    void Addup()
+    public void Addup()
     {
         InventorySystem.Instance.Add(referenceItem);
     }

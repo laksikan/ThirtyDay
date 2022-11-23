@@ -23,17 +23,17 @@ public class TurnbaseSystem : MonoBehaviour
 
     public Text DistanceText;
     public Slider DistanceSlider;
-    
+
+    public StatusSystem status;
 
     #endregion
     void Start()
     {
         state = TurnState.Start;
         _SetupTurn();
-        
     }
     
-    void Update()
+    void FixedUpdate()
     {
         
     }
@@ -74,8 +74,6 @@ public class TurnbaseSystem : MonoBehaviour
         state = TurnState.EndTurn;
         DayPeriod = DayPeriod + addTurn;
         distance = distance + addTurn;
-
-
         //ขึ้นวันใหม่จบเทิร์นที่ 5
         if (DayPeriod == 6)
         {
@@ -84,6 +82,10 @@ public class TurnbaseSystem : MonoBehaviour
             
         }
 
+        //lost status
+        status.reduceStravation(10);
+        
+        status.reduceEnergy(15);
     }
 
     private string _NameDayPeriod(int periodTurn)

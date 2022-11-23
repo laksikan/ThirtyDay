@@ -3,6 +3,29 @@
   <component name="ChangeListManager">
     <list default="true" id="28a5b13b-1cbc-415d-97a1-995c5c8ce31b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GitHub/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GitHub/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/HealthBar.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/HealthBar.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Item.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Item.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Consumed/Simple meal.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Consumed/Simple meal.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/ItemObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/ItemObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Material/Cloth.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Material/Cloth.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Material/Cloth.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Material/Cloth.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Material/Concrete.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Material/Concrete.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Material/Concrete.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Material/Concrete.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Material/Scrap metal.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Material/Scrap metal.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Material/Scrap metal.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Material/Scrap metal.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Material/Wood.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Material/Wood.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Material/Wood.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Material/Wood.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/InventorySystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InventorySystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/StatusSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/StatusSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/TurnbaseSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/TurnbaseSystem.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +45,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Resource/Apparel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/StatusSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resource/ItemPickup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resource/ItemObject.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -38,6 +62,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">

@@ -12,11 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99bd51c99eb1bd34cad3468cfadb7bde, type: 3}
   m_Name: Simple meal
   m_EditorClassIdentifier: 
-  name: Simple meal
+  itemId: 4004
+  displayName: 
   description: 
   Mass: 4
   Value: 10
-  itemId: 4004
-  artwork: {fileID: 0}
-  renameOnValidate: 0
+  artwork: {fileID: 21300000, guid: 0f7a0913332045a42ae237ea93644a39, type: 3}
   Nutrition: 6
