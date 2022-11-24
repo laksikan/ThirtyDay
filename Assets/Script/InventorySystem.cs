@@ -9,6 +9,8 @@ public class InventorySystem : MonoBehaviour
     public List<Resource> Resource = new List<Resource>();
     public Transform ResourceContent;
     public GameObject Item;
+    public StatusSystem status;
+    
 
     private void Awake()
     {
@@ -22,6 +24,14 @@ public class InventorySystem : MonoBehaviour
     {
         Resource.Remove(item);
     }
+
+    public void ConsumedItem(Resource item,float nutrition,float heal)
+    {
+        status.addStravation(nutrition);
+        status.addHealth(heal);
+        Remove(item);
+    }
+
     public void ListItem(){
         
         //Clean content before
@@ -31,21 +41,32 @@ public class InventorySystem : MonoBehaviour
 
         foreach(var item in Resource){
             GameObject obj = Instantiate(Item,ResourceContent);
-            //var itemName = obj.transform.Find("Name").GetComponent<Text>();
-            var itemIcon = obj.transform.Find("Artwork").GetComponent<Image>();
-            //var itemMass = obj.transform.Find("Mass").GetComponent<Text>();
-            //var itemValue = obj.transform.Find("Value").GetComponent<Text>();
-            //var itemQuantity = obj.transform.Find("Quantity").GetComponent<Text>();
-            //itemName.text = item.displayName;
-            itemIcon.sprite = item.artwork;             
-            //itemQuantity.text = item.Quantity.ToString();
-            //itemMass.text = item.Mass.ToString();
-            //itemValue.text = item.Value.ToString();
             
+            
+            var itemIcon = obj.transform.Find("Artwork").GetComponent<Image>();
+            itemIcon.sprite = item.artwork;
+            var itemName = obj.transform.Find("DetailPopup/DeatailBox/ItemTitle(UI)").GetComponent<Text>();
+            itemName.text = item.displayName;
+            var itemDetail = obj.transform.Find("DetailPopup/DeatailBox/ItemDetail(UI)").GetComponent<Text>();
+            itemDetail.text = item.description;
+
+            var itemMass = obj.transform.Find("DetailPopup/DeatailBox/Mass/MassUI").GetComponent<Text>();
+            var itemValue = obj.transform.Find("DetailPopup/DeatailBox/Value/ValueUI").GetComponent<Text>();
+            
+            itemMass.text = item.Mass.ToString();
+            itemValue.text = item.Value.ToString();
+
+            //Item nutrition cant find :( maybe need to edit class
+            //var itemNutrition = obj.transform.Find("DetailPopup/DeatailBox/Nutrition/NutritionUI").GetComponent<Text>(); 
+            //itemNutrition.text = item.Nutrition.ToString();
+            
+             
         }
-        
-        
+
     }
+
+    
+    
 }
     
     

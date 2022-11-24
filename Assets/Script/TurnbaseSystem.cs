@@ -64,6 +64,17 @@ public class TurnbaseSystem : MonoBehaviour
         DistanceText.text = distance.ToString();
     }
 
+    public void _EndTurnSleep()
+    {
+        _ProcessDay("sleep");
+        //dayVisual
+        DayPeriodText.text = _NameDayPeriod(DayPeriod);
+        DayText.text = Day.ToString();
+        //DistanceVisual
+        DistanceSlider.value = distance;
+        DistanceText.text = distance.ToString();
+    }
+
     void _EndGame()
     {
         
@@ -81,11 +92,34 @@ public class TurnbaseSystem : MonoBehaviour
             Day++;
             
         }
-
+        
         //lost status
         status.reduceStravation(10);
         
         status.reduceEnergy(15);
+    }
+
+    private void _ProcessDay(string sleep)
+    {
+        state = TurnState.EndTurn;
+        //sleep add energy
+        
+        if (DayPeriod == 5)
+        {
+            status.addEnergy(200);
+        }
+        else
+        {
+            status.addEnergy(30);
+        }
+
+        DayPeriod = DayPeriod + 1;
+        if (DayPeriod == 6)
+        {
+            DayPeriod = 1;
+            Day++;
+            
+        }
     }
 
     private string _NameDayPeriod(int periodTurn)

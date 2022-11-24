@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class StatusSystem : MonoBehaviour
 {
     #region Variables
+
+    public static StatusSystem Instance;
     
     //Variable
     private float health = 100;

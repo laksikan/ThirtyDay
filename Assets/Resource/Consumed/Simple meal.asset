@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Simple meal
   m_EditorClassIdentifier: 
   itemId: 4004
-  displayName: 
-  description: 
+  displayName: Simple meal
+  description: sandwich, yummi i like it
   Mass: 4
   Value: 10
   artwork: {fileID: 21300000, guid: 0f7a0913332045a42ae237ea93644a39, type: 3}

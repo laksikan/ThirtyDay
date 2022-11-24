@@ -17,5 +17,5 @@ public class Apparel : Resource
             return "Apparel";
         }
     }
-
+    
 }

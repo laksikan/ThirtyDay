@@ -22,12 +22,13 @@ public abstract class Resource : ScriptableObject
     {
         get;
     }
+
     
-    
-    
-    
+
+
+
 }
-public enum Item_Type 
+public enum Item_Type  
 {
     Material, Food, Weapon, Apparel, Consumed
 }

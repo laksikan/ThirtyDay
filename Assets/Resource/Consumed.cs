@@ -4,7 +4,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Consumed", menuName = "Consumed")]
 public class Consumed : Resource
 {
-    public float Nutrition;
+    public float nutrition;
+    public float heal;
     
     private bool consumed = false;
     
@@ -15,4 +16,6 @@ public class Consumed : Resource
             return "Consumed";
         }
     }
+
+    
 }
