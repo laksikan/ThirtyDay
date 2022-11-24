@@ -12,13 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50474342661abd94a8f0e50ebb1bfd54, type: 3}
   m_Name: BaseballBat
   m_EditorClassIdentifier: 
-  name: 
-  description: 
-  Mass: 0
-  Value: 0
   itemId: 2001
-  artwork: {fileID: 0}
-  renameOnValidate: 0
-  Damage: 0
-  Durability: 0
+  displayName: Baseball Bat
+  description: 
+  Mass: 10
+  Value: 60
+  artwork: {fileID: 21300000, guid: 9ceddee4beb3c1346aec73a40f27e97f, type: 3}
+  Damage: 5
+  Durability: 150
   equippable: 0

@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99bd51c99eb1bd34cad3468cfadb7bde, type: 3}
   m_Name: Fine meal
   m_EditorClassIdentifier: 
-  name: Fine meal
-  description: 
-  Mass: 4
-  Value: 13
   itemId: 4005
-  artwork: {fileID: 0}
-  renameOnValidate: 0
-  Nutrition: 7
+  displayName: Fine meal
+  description: 
+  Mass: 5.5
+  Value: 20
+  artwork: {fileID: 21300000, guid: 69fc1addfe352664e98ad2418160ebb1, type: 3}
+  nutrition: 70
+  heal: 8

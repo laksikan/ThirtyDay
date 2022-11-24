@@ -12,13 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 970687610dc128346801c72a2de65b5f, type: 3}
   m_Name: Bulletproof Armor
   m_EditorClassIdentifier: 
-  name: Bulletproof Armor
+  itemId: 3001
+  displayName: bulletproof Armor
   description: 
   Mass: 10
   Value: 80
-  itemId: 3001
-  artwork: {fileID: 0}
-  renameOnValidate: 0
+  artwork: {fileID: 21300000, guid: 1871db7621025684aa5ed67284f50c09, type: 3}
   Armor: 68
   Durability: 50
   equippable: 0

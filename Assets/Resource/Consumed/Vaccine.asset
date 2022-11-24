@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99bd51c99eb1bd34cad3468cfadb7bde, type: 3}
   m_Name: Vaccine
   m_EditorClassIdentifier: 
-  name: Vaccine
-  description: 
-  Mass: 6
-  Value: 40
   itemId: 4008
-  artwork: {fileID: 0}
-  renameOnValidate: 0
-  Nutrition: 0
+  displayName: Vaccine
+  description: 
+  Mass: 1
+  Value: 40
+  artwork: {fileID: 21300000, guid: 6fff5c67dd5c41541b6260d84ee1c67f, type: 3}
+  nutrition: 0
+  heal: 80

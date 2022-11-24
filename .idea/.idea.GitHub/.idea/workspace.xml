@@ -3,22 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="28a5b13b-1cbc-415d-97a1-995c5c8ce31b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GitHub/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GitHub/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Item.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Item.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Item.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Item.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Apparel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Apparel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Consumed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Consumed.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Consumed/Medicine.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Consumed/Medicine.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Consumed/Simple meal.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Consumed/Simple meal.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Apparel/Gas Mask.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Apparel/Gas Mask.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Apparel/Gas Mask.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Apparel/Gas Mask.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resource/ItemObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/ItemObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Material.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Material.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Resource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Resource.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resource/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resource/Weapon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/InventorySystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InventorySystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/StatusSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/StatusSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/TurnbaseSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/TurnbaseSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Material/Token.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Material/Token.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Material/Token.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Material/Token.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Material/Tool.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Material/Tool.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Material/Tool.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resource/Material/Tool.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/EventController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/EventController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99bd51c99eb1bd34cad3468cfadb7bde, type: 3}
   m_Name: Vegetable
   m_EditorClassIdentifier: 
-  name: Vegetable
-  description: 
-  Mass: 1
-  Value: 3
   itemId: 4003
-  artwork: {fileID: 0}
-  renameOnValidate: 0
-  Nutrition: 0.5
+  displayName: Vegetable
+  description: 
+  Mass: 0.5
+  Value: 4
+  artwork: {fileID: 21300000, guid: fd6a2d942788ccd498505f69af9da860, type: 3}
+  nutrition: 8
+  heal: 2

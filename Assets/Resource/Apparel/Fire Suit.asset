@@ -12,13 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 970687610dc128346801c72a2de65b5f, type: 3}
   m_Name: Fire Suit
   m_EditorClassIdentifier: 
-  name: Fire Suit
-  description: 
-  Mass: 5
-  Value: 50
   itemId: 3002
-  artwork: {fileID: 0}
-  renameOnValidate: 0
-  Armor: 15
-  Durability: 25
+  displayName: Fire Suit
+  description: 
+  Mass: 9
+  Value: 80
+  artwork: {fileID: 21300000, guid: 3e74eea84b3a27145b2e5e662ed7cfe0, type: 3}
+  Armor: 2
+  Durability: 0
   equippable: 0

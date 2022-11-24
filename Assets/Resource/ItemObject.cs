@@ -5,12 +5,11 @@ using UnityEngine;
 public class ItemObject : MonoBehaviour
 {
     public Resource referenceItem;
-    public InventoryItemControl refItem;
+
     
     public void Addup()
     {
         InventorySystem.Instance.Add(referenceItem);
-        refItem.AddItem(referenceItem);
     }
 
     public void RemoveItem()

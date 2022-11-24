@@ -37,6 +37,8 @@ public class EventController : MonoBehaviour
                 Debug.Log("Assault Rifle +1\n" +
                           "Token +2\n" +
                           "Meat +5\n");
+
+
             } else {
                 Debug.Log(digit);
                 Debug.Log("You Got Normal Loot Box");
@@ -44,6 +46,7 @@ public class EventController : MonoBehaviour
                           "Bread +2\n");
             }
         }
+        
     }
     
     public void ExplosionOption2()

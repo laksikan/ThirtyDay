@@ -12,13 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50474342661abd94a8f0e50ebb1bfd54, type: 3}
   m_Name: Shotgun
   m_EditorClassIdentifier: 
-  name: 
-  description: 
-  Mass: 0
-  Value: 0
   itemId: 2004
-  artwork: {fileID: 0}
-  renameOnValidate: 0
-  Damage: 0
-  Durability: 0
+  displayName: Shotgun
+  description: 
+  Mass: 20
+  Value: 140
+  artwork: {fileID: 21300000, guid: 835ebbb825f60e143a2c40352f29ede2, type: 3}
+  Damage: 16
+  Durability: 35
   equippable: 0
