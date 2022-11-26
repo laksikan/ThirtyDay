@@ -43,7 +43,7 @@ public class InventorySystem : MonoBehaviour
             GameObject obj = Instantiate(Item,ResourceContent);
             
             
-            var itemIcon = obj.transform.Find("Artwork").GetComponent<Image>();
+            var itemIcon = obj.transform.Find("ItemButton/Artwork").GetComponent<Image>();
             itemIcon.sprite = item.artwork;
             var itemName = obj.transform.Find("DetailPopup/DeatailBox/ItemTitle(UI)").GetComponent<Text>();
             itemName.text = item.displayName;

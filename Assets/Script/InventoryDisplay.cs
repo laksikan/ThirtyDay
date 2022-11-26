@@ -23,7 +23,13 @@ public class InventoryDisplay : MonoBehaviour
     
     public void ShowDetailBox()
     {
-        DetailBox.SetActive(true);
+        if (DetailBox != null)
+        {
+            bool isActive = DetailBox.activeSelf;
+            DetailBox.SetActive(!isActive);
+        }
+        
+        
     }
     
     public void CloseDetailBox()
